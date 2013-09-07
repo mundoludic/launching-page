@@ -2,6 +2,19 @@
 // Foundation Variables
 //
 
+// Colores Mundo Ludic
+
+$light-blue: #a4c3dc;
+
+$light-grey: #f0eff0;
+$grey: #dedede;
+$dark-grey: #4d4d4d;
+
+$black: #050c10;
+$white: #ffffff;
+
+$light-green: #d9de3e;
+
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
 $base-font-size: 100% !default;
@@ -67,10 +80,10 @@ $default-float: left;
 
 // Colors
 
-// $primary-color: #2ba6cb;
-// $secondary-color: #e9e9e9;
-// $alert-color: #c60f13;
-// $success-color: #5da423;
+$primary-color: #a4c3dc;
+$secondary-color: #f0eff0;
+$alert-color: #c60f13;
+$success-color: #d9de3e;
 
 // Make sure border radius matches unless we want it different.
 

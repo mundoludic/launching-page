@@ -1,0 +1,162 @@
+//@marioip Created by Mario Iglesias
+
+// Style sheet of Mundo Ludic
+
+// GLOBAL styles
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.left{
+	text-align: left;
+}
+
+// HEADER
+#header{
+	height: 430px;
+	background-color: $black;
+	background: url('../images/head-background.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.social-nav{
+	margin-top: 10px;
+	margin-right: 10px;
+
+	img{
+		background-repeat:no-repeat;
+		margin-right: 5px;
+	}
+}
+
+.logo{
+	margin-top: 10px;
+}
+
+.eslogan{
+		margin-top: 45px;
+	a{
+		padding-top: 20px;
+		@include button;
+		color: $black;
+	}
+}
+
+.eslogan-foot{
+	margin: 40px 0px;
+	a{
+		padding-top: 20px;
+		@include button;
+		color: $black;
+		background-color: $light-grey;
+		border: 1px solid $grey;
+	}
+	a:hover{
+		background-color: $grey;
+		border: 1 px solid $light-grey;
+	}
+}
+
+.launching{
+	margin-top: 30px;
+	padding: 10px 0px;
+	h3{
+		color: $black;
+		font-size: 1em;
+		padding: 15px 30px;
+		background-color: $white;
+		opacity: 0.6;
+	}
+}
+
+.newsletter{
+	padding-top: 20px;
+	// border-bottom:1px solid $grey;
+}
+
+.main{
+	padding: 20px 0px;
+	background-color: $light-grey;
+	h2{
+		margin: 25px 0px 45px 0px;
+		font-size: 1.2em;
+		padding: 0px 30px;
+		text-align: center;
+		color: $dark-grey;
+	}
+}
+
+.carrusel{
+	text-align: center;
+	margin-bottom: 50px;
+	.orbit-container{
+		background-color: $light-grey;
+	}
+}
+
+.footer{
+	margin-bottom: 20px;
+	padding-top: 40px;
+	border-top:1px solid $grey;
+	background-color: $white;
+}
+
+.copy{
+	height: 40px;
+	padding-top: 20px;
+	font-size: 0.9em;
+	color: $dark-grey;
+}
+
+// Botones
+
+//head
+.twitter{
+	background: url('../images/icons/twitter.png');
+}
+
+.twitter:hover{
+	background: url('../images/icons/twitter-over.png');
+}
+
+.facebook{
+	background: url('../images/icons/facebook.png');
+}
+
+.facebook:hover{
+	background: url('../images/icons/facebook-over.png');
+}
+
+.logo{
+	background: url('../images/logo-white.png');
+}
+
+.logo:hover{
+	background: url('../images/logo.png');
+}
+
+//footer
+.twitter-foot{
+	background: url('../images/icons/twitter-grey.png');
+}
+
+.twitter-foot:hover{
+	background: url('../images/icons/twitter-grey-over.png');
+}
+
+.facebook-foot{
+	background: url('../images/icons/facebook-grey.png');
+	margin-right: 5px;
+}
+
+.facebook-foot:hover{
+	background: url('../images/icons/facebook-grey-over.png');
+}
+
+.logo-foot{
+	background: url('../images/logo.png');
+}
+
+
