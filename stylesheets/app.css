@@ -7235,41 +7235,48 @@ a.th {
 }
 
 /* line 18, ../sass/_main.scss */
+h3 {
+  color: white;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  margin: 30px 0px 20px 0px;
+  padding: 0;
+}
+
+/* line 28, ../sass/_main.scss */
 body {
   background-color: #050c10;
 }
 
-/* line 22, ../sass/_main.scss */
+/* line 32, ../sass/_main.scss */
 #header {
-  height: 430px;
   background: url("../images/head-background.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
 
-/* line 28, ../sass/_main.scss */
+/* line 38, ../sass/_main.scss */
 .social-nav {
   margin-top: 10px;
   margin-right: 10px;
 }
-/* line 32, ../sass/_main.scss */
+/* line 42, ../sass/_main.scss */
 .social-nav img {
   background-repeat: no-repeat;
   margin-right: 5px;
 }
 
-/* line 38, ../sass/_main.scss */
+/* line 48, ../sass/_main.scss */
 .logo {
   margin-top: 10px;
 }
 
-/* line 42, ../sass/_main.scss */
+/* line 52, ../sass/_main.scss */
 .eslogan {
-  margin-top: 45px;
+  margin-top: 15px;
 }
-/* line 44, ../sass/_main.scss */
+/* line 54, ../sass/_main.scss */
 .eslogan a {
-  padding-top: 20px;
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
@@ -7300,11 +7307,11 @@ body {
   color: #333333;
 }
 
-/* line 51, ../sass/_main.scss */
+/* line 60, ../sass/_main.scss */
 .eslogan-foot {
   margin: 40px 0px;
 }
-/* line 53, ../sass/_main.scss */
+/* line 62, ../sass/_main.scss */
 .eslogan-foot a {
   padding-top: 20px;
   border-style: solid;
@@ -7338,18 +7345,17 @@ body {
 .eslogan-foot a:hover, .eslogan-foot a:focus {
   color: #333333;
 }
-/* line 60, ../sass/_main.scss */
+/* line 69, ../sass/_main.scss */
 .eslogan-foot a:hover {
   background-color: #dedede;
   border: 1 px solid #f0eff0;
 }
 
-/* line 66, ../sass/_main.scss */
+/* line 75, ../sass/_main.scss */
 .launching {
-  margin-top: 30px;
-  padding: 10px 0px;
+  padding: 0;
 }
-/* line 69, ../sass/_main.scss */
+/* line 78, ../sass/_main.scss */
 .launching h3 {
   color: #050c10;
   font-size: 1em;
@@ -7358,37 +7364,38 @@ body {
   opacity: 0.6;
 }
 
-/* line 78, ../sass/_main.scss */
+/* line 87, ../sass/_main.scss */
 .newsletter {
-  padding-top: 20px;
+  padding-top: 25px;
   background-color: white;
 }
 
-/* line 84, ../sass/_main.scss */
+/* line 93, ../sass/_main.scss */
 .main {
-  padding: 20px 0px;
+  padding: 35px 0px 25px 0px;
   background-color: #f0eff0;
 }
-/* line 87, ../sass/_main.scss */
+/* line 96, ../sass/_main.scss */
 .main h2 {
-  margin: 25px 0px 45px 0px;
-  font-size: 1.2em;
+  margin: 20px 0px;
+  font-size: 1.1em;
   padding: 0px 30px;
   text-align: center;
   color: #4d4d4d;
 }
 
-/* line 96, ../sass/_main.scss */
+/* line 105, ../sass/_main.scss */
 .carrusel {
   text-align: center;
   margin-bottom: 50px;
 }
-/* line 99, ../sass/_main.scss */
+/* line 108, ../sass/_main.scss */
 .carrusel .orbit-container {
+  margin-top: 25px;
   background-color: #f0eff0;
 }
 
-/* line 104, ../sass/_main.scss */
+/* line 114, ../sass/_main.scss */
 .footer {
   margin-bottom: 20px;
   padding-top: 40px;
@@ -7396,7 +7403,7 @@ body {
   background-color: white;
 }
 
-/* line 111, ../sass/_main.scss */
+/* line 121, ../sass/_main.scss */
 .copy {
   height: 40px;
   padding-top: 20px;
@@ -7404,58 +7411,58 @@ body {
   color: #4d4d4d;
 }
 
-/* line 121, ../sass/_main.scss */
+/* line 131, ../sass/_main.scss */
 .twitter {
   background: url("../images/icons/twitter.png");
 }
 
-/* line 125, ../sass/_main.scss */
+/* line 135, ../sass/_main.scss */
 .twitter:hover {
   background: url("../images/icons/twitter-over.png");
 }
 
-/* line 129, ../sass/_main.scss */
+/* line 139, ../sass/_main.scss */
 .facebook {
   background: url("../images/icons/facebook.png");
 }
 
-/* line 133, ../sass/_main.scss */
+/* line 143, ../sass/_main.scss */
 .facebook:hover {
   background: url("../images/icons/facebook-over.png");
 }
 
-/* line 137, ../sass/_main.scss */
+/* line 147, ../sass/_main.scss */
 .logo {
   background: url("../images/logo-white.png");
 }
 
-/* line 141, ../sass/_main.scss */
+/* line 151, ../sass/_main.scss */
 .logo:hover {
   background: url("../images/logo.png");
 }
 
-/* line 146, ../sass/_main.scss */
+/* line 156, ../sass/_main.scss */
 .twitter-foot {
   background: url("../images/icons/twitter-grey.png");
 }
 
-/* line 150, ../sass/_main.scss */
+/* line 160, ../sass/_main.scss */
 .twitter-foot:hover {
   background: url("../images/icons/twitter-grey-over.png");
 }
 
-/* line 154, ../sass/_main.scss */
+/* line 164, ../sass/_main.scss */
 .facebook-foot {
   background: url("../images/icons/facebook-grey.png");
   margin-right: 5px;
 }
 
-/* line 159, ../sass/_main.scss */
+/* line 169, ../sass/_main.scss */
 .facebook-foot:hover {
   background: url("../images/icons/facebook-grey-over.png");
 }
 
-/* line 163, ../sass/_main.scss */
+/* line 173, ../sass/_main.scss */
 .logo-foot {
   background: url("../images/logo.png");
 }
