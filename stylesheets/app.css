@@ -7243,39 +7243,127 @@ h3 {
   padding: 0;
 }
 
-/* line 28, ../sass/_main.scss */
-body {
-  background-color: #050c10;
+/* line 26, ../sass/_main.scss */
+h4 {
+  color: #4d4d4d;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  margin: 35px 0px 0px 0px;
 }
 
-/* line 32, ../sass/_main.scss */
+/* line 35, ../sass/_main.scss */
+body {
+  background-color: white;
+  color: #4d4d4d;
+}
+
+/* line 40, ../sass/_main.scss */
+#initial-content {
+  margin-top: 50px;
+}
+/* line 42, ../sass/_main.scss */
+#initial-content img {
+  margin-bottom: 20px;
+}
+
+/* line 47, ../sass/_main.scss */
 #header {
   background: url("../images/head-background.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+  background-color: #050c10;
 }
 
-/* line 38, ../sass/_main.scss */
+/* line 54, ../sass/_main.scss */
+.idioma {
+  display: inline-block;
+  margin-top: 10px;
+}
+/* line 57, ../sass/_main.scss */
+.idioma ul {
+  list-style-type: none;
+  color: #dedede;
+  letter-spacing: 0.05em;
+  font-size: 0.9em;
+}
+/* line 62, ../sass/_main.scss */
+.idioma ul li {
+  display: inline;
+}
+/* line 65, ../sass/_main.scss */
+.idioma ul a {
+  color: white;
+}
+
+/* line 72, ../sass/_main.scss */
+#modal-idioma h7 {
+  color: #4d4d4d;
+}
+
+/* line 77, ../sass/_main.scss */
+.modal-title {
+  margin-top: 20px;
+}
+
+/* line 84, ../sass/_main.scss */
+.modal-botones {
+  margin: 20px 0px 10px 0px;
+  padding: 0;
+  border: 0px;
+}
+/* line 90, ../sass/_main.scss */
+.modal-botones a {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.75em;
+  padding-right: 1.5em;
+  padding-bottom: 0.8125em;
+  padding-left: 1.5em;
+  font-size: 1em;
+  background-color: #a4c3dc;
+  border-color: #7fabce;
+  color: #333333;
+  margin: 0px 10px 0px 0px;
+}
+/* line 122, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
+.modal-botones a:hover, .modal-botones a:focus {
+  background-color: #7fabce;
+}
+/* line 128, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
+.modal-botones a:hover, .modal-botones a:focus {
+  color: #333333;
+}
+
+/* line 96, ../sass/_main.scss */
 .social-nav {
   margin-top: 10px;
   margin-right: 10px;
 }
-/* line 42, ../sass/_main.scss */
+/* line 100, ../sass/_main.scss */
 .social-nav img {
   background-repeat: no-repeat;
   margin-right: 5px;
 }
 
-/* line 48, ../sass/_main.scss */
+/* line 106, ../sass/_main.scss */
 .logo {
   margin-top: 10px;
 }
 
-/* line 52, ../sass/_main.scss */
+/* line 110, ../sass/_main.scss */
 .eslogan {
   margin-top: 15px;
 }
-/* line 54, ../sass/_main.scss */
+/* line 112, ../sass/_main.scss */
 .eslogan a {
   border-style: solid;
   border-width: 1px;
@@ -7307,11 +7395,11 @@ body {
   color: #333333;
 }
 
-/* line 60, ../sass/_main.scss */
+/* line 118, ../sass/_main.scss */
 .eslogan-foot {
   margin: 40px 0px;
 }
-/* line 62, ../sass/_main.scss */
+/* line 120, ../sass/_main.scss */
 .eslogan-foot a {
   padding-top: 20px;
   border-style: solid;
@@ -7345,17 +7433,17 @@ body {
 .eslogan-foot a:hover, .eslogan-foot a:focus {
   color: #333333;
 }
-/* line 69, ../sass/_main.scss */
+/* line 127, ../sass/_main.scss */
 .eslogan-foot a:hover {
   background-color: #dedede;
   border: 1 px solid #f0eff0;
 }
 
-/* line 75, ../sass/_main.scss */
+/* line 133, ../sass/_main.scss */
 .launching {
   padding: 0;
 }
-/* line 78, ../sass/_main.scss */
+/* line 136, ../sass/_main.scss */
 .launching h3 {
   color: #050c10;
   font-size: 1em;
@@ -7364,18 +7452,29 @@ body {
   opacity: 0.6;
 }
 
-/* line 87, ../sass/_main.scss */
+/* line 145, ../sass/_main.scss */
 .newsletter {
   padding-top: 25px;
   background-color: white;
+  text-align: center;
+}
+/* line 150, ../sass/_main.scss */
+.newsletter h7 {
+  padding: 20px 20px 0px 0px;
 }
 
-/* line 93, ../sass/_main.scss */
+/* line 155, ../sass/_main.scss */
+.enviar {
+  font-size: 0.8em;
+  height: 35px;
+}
+
+/* line 160, ../sass/_main.scss */
 .main {
   padding: 35px 0px 25px 0px;
   background-color: #f0eff0;
 }
-/* line 96, ../sass/_main.scss */
+/* line 163, ../sass/_main.scss */
 .main h2 {
   margin: 20px 0px;
   font-size: 1.1em;
@@ -7384,18 +7483,18 @@ body {
   color: #4d4d4d;
 }
 
-/* line 105, ../sass/_main.scss */
+/* line 172, ../sass/_main.scss */
 .carrusel {
   text-align: center;
   margin-bottom: 50px;
 }
-/* line 108, ../sass/_main.scss */
+/* line 175, ../sass/_main.scss */
 .carrusel .orbit-container {
   margin-top: 25px;
   background-color: #f0eff0;
 }
 
-/* line 114, ../sass/_main.scss */
+/* line 181, ../sass/_main.scss */
 .footer {
   margin-bottom: 20px;
   padding-top: 40px;
@@ -7403,7 +7502,7 @@ body {
   background-color: white;
 }
 
-/* line 121, ../sass/_main.scss */
+/* line 188, ../sass/_main.scss */
 .copy {
   height: 40px;
   padding-top: 20px;
@@ -7411,58 +7510,58 @@ body {
   color: #4d4d4d;
 }
 
-/* line 131, ../sass/_main.scss */
+/* line 198, ../sass/_main.scss */
 .twitter {
   background: url("../images/icons/twitter.png");
 }
 
-/* line 135, ../sass/_main.scss */
+/* line 202, ../sass/_main.scss */
 .twitter:hover {
   background: url("../images/icons/twitter-over.png");
 }
 
-/* line 139, ../sass/_main.scss */
+/* line 206, ../sass/_main.scss */
 .facebook {
   background: url("../images/icons/facebook.png");
 }
 
-/* line 143, ../sass/_main.scss */
+/* line 210, ../sass/_main.scss */
 .facebook:hover {
   background: url("../images/icons/facebook-over.png");
 }
 
-/* line 147, ../sass/_main.scss */
+/* line 214, ../sass/_main.scss */
 .logo {
   background: url("../images/logo-white.png");
 }
 
-/* line 151, ../sass/_main.scss */
+/* line 218, ../sass/_main.scss */
 .logo:hover {
   background: url("../images/logo.png");
 }
 
-/* line 156, ../sass/_main.scss */
+/* line 223, ../sass/_main.scss */
 .twitter-foot {
   background: url("../images/icons/twitter-grey.png");
 }
 
-/* line 160, ../sass/_main.scss */
+/* line 227, ../sass/_main.scss */
 .twitter-foot:hover {
   background: url("../images/icons/twitter-grey-over.png");
 }
 
-/* line 164, ../sass/_main.scss */
+/* line 231, ../sass/_main.scss */
 .facebook-foot {
   background: url("../images/icons/facebook-grey.png");
   margin-right: 5px;
 }
 
-/* line 169, ../sass/_main.scss */
+/* line 236, ../sass/_main.scss */
 .facebook-foot:hover {
   background: url("../images/icons/facebook-grey-over.png");
 }
 
-/* line 173, ../sass/_main.scss */
+/* line 240, ../sass/_main.scss */
 .logo-foot {
   background: url("../images/logo.png");
 }

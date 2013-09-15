@@ -23,10 +23,25 @@ h3{
 	padding: 0;
 }
 
+h4{
+	color: $dark-grey;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	margin: 35px 0px 0px 0px; 
+}
+
 // HEADER
 
 body{
-	background-color: $black;
+	background-color: $white;
+	color: $dark-grey;
+}
+
+#initial-content{
+	margin-top: 50px;
+	img{
+		margin-bottom: 20px;
+	}
 }
 
 #header{
@@ -34,7 +49,47 @@ body{
 	background: url('../images/head-background.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-color: $black;
 }
+.idioma{
+	display: inline-block;
+	margin-top: 10px;
+	ul{
+		list-style-type: none;
+		color: $grey;
+		letter-spacing: 0.05em;
+		font-size: 0.9em;
+		li{
+			display: inline;
+		}
+		a{
+			color: $white;
+		}
+	}
+}
+
+#modal-idioma{
+	h7{
+		color: $dark-grey;
+	}
+}
+
+.modal-title{
+	margin-top: 20px;
+}
+
+.modal-botones{
+	
+	margin: 20px 0px 10px 0px;
+	padding: 0;
+	border: 0px;
+	// border:0px;
+	a{
+		@include button;
+		margin: 0px 10px 0px 0px;
+	}
+}
+
 .social-nav{
 	margin-top: 10px;
 	margin-right: 10px;
@@ -88,6 +143,15 @@ body{
 	padding-top: 25px;
 	background-color: $white;
 	// border-bottom:1px solid $grey;
+	text-align: center;
+	h7{
+		padding: 20px 20px 0px 0px;
+	}
+}
+
+.enviar{
+	font-size: 0.8em;
+	height: 35px;
 }
 
 .main{

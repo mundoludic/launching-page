@@ -10,233 +10,68 @@
 
   <link rel="stylesheet" href="stylesheets/app.css">
 
-  <script src="javascripts/vendor/custom.modernizr.js"></script>
+  <script src="javascripts/vendor/jquery.js"></script>
 
 </head>
 <body>
 
-	<div id="header">
+	<div id="initial-content" class="row">
 
+		<div class="large-12 columns">
 		<div class="row">
-			<div class="larg-12 columns social-nav right">
-				<a href="https://www.facebook.com/pages/MUNDO-LUDIC/330633617068232" target="_blank"><img class="facebook" src="images/icons/social-icon-empty.png"></a>
-				<a href="https://twitter.com/MundoLudic" target="_blank"><img class="twitter" src="images/icons/social-icon-empty.png"></a>
-		</div>
-
-		</div>
-
-		<div class="row">
-			<div class="large-12 columns center">
-				<a href=""><img class="logo" src="images/logo-empty.png"></a>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="large-12 columns center">
-				<h3>En MUNDO LUDIC estamos buscando un eslogan.</h3>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="large-12 columns center eslogan">
-				<a href="#">AYUDANOS!!!</a>
-			</div>
-		</div>
-
-			<div class="larg-12 columns center launching">
-				<h3>En breve estaremos con vosotros, estamos trabajando con muchas ganas para daros un buen servicio.</h3>
-			</div>
-
-		<div class="row"></div>
-
-	</div>
-
-	<div class="newsletter">
-		<div class="row">
-  		<div class="large-6 large-centered columns">
-  			<form>
-			<div class="row collapse">
-				<label>Recibirás todas las novedades</label>
-		        <div class="small-10 columns">
-		          <input type="text" placeholder="Escribe tú email">
-		        </div>
-		        <div class="small-2 columns">
-		          <a href="#" class="button prefix">Enviar</a>
-		        </div>
-	      	</div>
-			</form>
-		</div>
-	</div>
-	</div>
-
-	<div class=" large-12 columns main">
-
-		<div class="row">
-
-			<div class="large-12 columns">
-				<h2>MUNDO LUDIC es un directorio web para la búsqueda y contratación de actividades de animación lúdicas, culturales y educativas.</h2>
-			</div>
-
-		</div>
-
-		<div class="row">
-
-			<div class="large-12 columns">
-				<h2>MUNDO LUDIC está creando una comunidad online donde los usuarios aportan sus opiniones, porque creemos en la web 100% colaborativa.</h2>
-			</div>
-
-		</div>
-
-		<div class="row">
-
-			<div class="large-12 columns">
-				<h2>MUNDO LUDIC es el punto de encuentro entre proveedores de actividades artísticas, lúdicas y culturales y TÚ”.</h2>
-			</div>
-
-		</div>
-
-		<div class="row">
-
-			<div class="large-8 large-centered columns carrusel">
-					<ul data-orbit>
-					  <li>
-					    <img src="images/carrusel/carrusel1.jpg" />
-					  </li>
-					  <li>
-					    <img src="images/carrusel/carrusel2.jpg" />
-					  </li>
-					  <li>
-					    <img src="images/carrusel/carrusel3.jpg" />
-					  </li>
-					  <li>
-					    <img src="images/carrusel/carrusel4.jpg" />
-					  </li>
-					  <li>
-					    <img src="images/carrusel/carrusel5.jpg" />
-					  </li>
-					</ul>
-			</div>
-
-		</div>
-
-	</div>
-
-	<div class="large-12 columns footer">
-			<div class="row">
 				<div class="large-12 columns center">
-					<a href=""><img class="logo-foot" src="images/logo-empty.png"></a>
+					<img src="images/logo_mundoludic.png">
 				</div>
 			</div>
-
-			<div class="row">
-				<div class="large-12 columns center eslogan-foot">
-					<a href="#" data-reveal-id="votar-eslogan">Ayúdanos a elegir nuestro eslógan!</a>
-				</div>
+		<div class="row">
+			<div class="large-12 columns center modal-title">
+				<h7>Quiero ver la página en / Vull veure la pagina en:</h7>
 			</div>
-
-			<div class="row">
-			  <div class="large-12 columns">
-			  		<div class="small-6 columns copy">
-			  	<h7>&copy;&nbsp;Mundo Ludic</h7>
-			  	</div>
-				  	<div class="small-6 columns right">
-				  	<a href="https://www.facebook.com/pages/MUNDO-LUDIC/330633617068232" target="_blank"><img class="facebook-foot" src="images/icons/social-icon-empty.png"></a>
-							<a href="https://twitter.com/MundoLudic" target="_blank"><img class="twitter-foot" src="images/icons/social-icon-empty.png"></a>
-					</div>
-			  </div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns modal-botones center">
+				<a href="cas/" class="button">CASTELLANO</a>
+				<a href="cat/" class="button">CATALÀ</a>
 			</div>
+		</div>
+		</div>
 
 	</div>
 
+	<script>
 
-	<div id="votar-eslogan" class="reveal-modal medium">
-	  <h7>Ayúdanos a elegir nuestro eslógan!</h7>
-	  <form class="custom">
-	  	<div class="large-4 columns">
-	      <label for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;" CHECKED><span class="custom radio checked"></span> Radio Button 1</label>
-      	<label for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;"><span class="custom radio"></span> Radio Button 2</label>
-      	<label for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;"><span class="custom radio"></span> Radio Button 3</label>
-	    </div>
-	  </form>
+	$(document).ready(function() {
 
-	  <a class="close-reveal-modal">&#215;</a>
-	</div>
+		var idiomaMundoludic = localStorage["mundoludic-idioma"];
+
+		if(idiomaMundoludic!=undefined){
+			location.replace(idiomaMundoludic+"/");
+		}
+	});
+
+	</script>
 
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  
-  <script src="javascripts/foundation/foundation.js"></script>
-	
-	<script src="javascripts/foundation/foundation.abide.js"></script>
-	
-	<script src="javascripts/foundation/foundation.alerts.js"></script>
-	
-	<script src="javascripts/foundation/foundation.clearing.js"></script>
-	
-	<script src="javascripts/foundation/foundation.cookie.js"></script>
-	
-	<script src="javascripts/foundation/foundation.dropdown.js"></script>
-	
-	<script src="javascripts/foundation/foundation.forms.js"></script>
-	
-	<script src="javascripts/foundation/foundation.interchange.js"></script>
-	
-	<script src="javascripts/foundation/foundation.joyride.js"></script>
-	
-	<script src="javascripts/foundation/foundation.magellan.js"></script>
-	
-	<script src="javascripts/foundation/foundation.orbit.js"></script>
-	
-	<script src="javascripts/foundation/foundation.placeholder.js"></script>
-	
-	<script src="javascripts/foundation/foundation.reveal.js"></script>
-	
-	<script src="javascripts/foundation/foundation.section.js"></script>
-	
-	<script src="javascripts/foundation/foundation.tooltips.js"></script>
-	
-	<script src="javascripts/foundation/foundation.topbar.js"></script>
-	
-  <script>
+	<script>
 
-  $(document).foundation('orbit', {
-	  animation: 'fade',
-	  timer_speed: 7000,
-	  pause_on_hover: false,
-	  resume_on_mouseout: false,
-	  animation_speed: 700,
-	  stack_on_small: true,
-	  navigation_arrows: true,
-	  slide_number: false,
-	  container_class: 'orbit-container',
-	  stack_on_small_class: 'orbit-stack-on-small',
-	  next_class: 'orbit-next',
-	  prev_class: 'orbit-prev',
-	  timer_container_class: 'orbit-timer',
-	  timer_paused_class: 'paused',
-	  timer_progress_class: 'orbit-progress',
-	  slides_container_class: 'orbit-slides-container',
-	  bullets_container_class: 'orbit-bullets',
-	  bullets_active_class: 'active',
-	  slide_number_class: 'orbit-slide-number',
-	  caption_class: 'orbit-caption',
-	  active_slide_class: 'active',
-	  orbit_transition_class: 'orbit-transitioning',
-	  bullets: true,
-	  timer: true,
-	  variable_height: false,
-	  before_slide_change: function(){},
-	  after_slide_change: function(){}
-});
+			// conprobar idioma navegador
 
-  </script>
+			// var idioma = String(navigator.userLanguage);
+			// var iniciales = idioma.substring(0,2);
 
-  <script>
-    $(document).foundation();
-  </script>
+			// console.log(iniciales);
+
+			// if(iniciales=="ca")
+			// {
+			// 	location.replace("cat/"); //redirigimos a nuestro sitio en español
+			// 	localStorage["mundoludic-idioma"] = "cat";
+			// }
+			// else
+			// {
+			// 	location.replace("cas/") //redigirimos a nuestro sitio en catalan
+			// }
+
+	</script>
+
 </body>
 </html>
