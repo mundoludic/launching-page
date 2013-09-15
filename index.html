@@ -10,6 +10,17 @@
 
   <link rel="stylesheet" href="stylesheets/app.css">
 
+
+	<script>
+
+		var idiomaMundoludic = localStorage["mundoludic-idioma"];
+
+		if(idiomaMundoludic!=undefined){
+			location.replace(idiomaMundoludic+"/");
+		}
+
+	</script>
+
   <script src="javascripts/vendor/jquery.js"></script>
 
 </head>
@@ -25,7 +36,7 @@
 			</div>
 		<div class="row">
 			<div class="large-12 columns center modal-title">
-				<h7>Quiero ver la página en / Vull veure la pagina en:</h7>
+				<h7>Quiero ver la página en / Vull veure la pàgina en:</h7>
 			</div>
 		</div>
 		<div class="row">
@@ -37,19 +48,6 @@
 		</div>
 
 	</div>
-
-	<script>
-
-	$(document).ready(function() {
-
-		var idiomaMundoludic = localStorage["mundoludic-idioma"];
-
-		if(idiomaMundoludic!=undefined){
-			location.replace(idiomaMundoludic+"/");
-		}
-	});
-
-	</script>
 
 
 	<script>
