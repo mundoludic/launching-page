@@ -1,8 +1,14 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
+/* MUNDO LUDIC es un directorio web para la búsqueda y contratación de actividades de animación lúdicas, culturales y educativas. */
+/* mundoludic.com */
 /* humanstxt.org */
 
+/* TEAM */
+	Name: Mundo Ludic
+	Site: mundoludic.com, marioip@mundoludic.com
+	Facebook: https://www.facebook.com/MundoLudic.Page
+	Twitter: https://twitter.com/MundoLudic
+
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+	Standards: HTML5, CSS3, Javascript, JSON
+	Components: jQuery, Orbit, Reveal
+	Software: Sublime Text, Git, Foundation Zurb, Angular JS
