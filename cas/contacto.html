@@ -70,13 +70,17 @@
 
 	<div class=" large-12 columns main">
 
-		<div class="row">
+		<div class="row" id="contacto">
 
 			<div class="large-12 columns">
-				<h7>Si quieres contactar con nosotros, envíanos por favor un correo a <a href="mailto:info@mundoludic.com">info@mundoludic.com</a>, y en breve te responderemos.</h7>
+				<h6>Si quieres contactar con nosotros, envíanos por favor un correo a <a href="mailto:info@mundoludic.com">info@mundoludic.com</a>, y en breve te responderemos.</h6><br>
 				<p>Déjanos tu teléfono de contacto si quieres que te llamemos:</p>
-				<form>
-					<input id="telefono" type="text" placeholder="Número de contacto" minlength="9" maxlength="15" required>
+				<!-- Form contacto -->
+				<form class="small-4 columns" action="http://www.mundoludic.com/php/contacto.php" id="contactForm">
+					<label>Nombre</label>
+					<input id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre" minlength="3" maxlength="30" required>
+					<label>Teléfono</label>
+					<input id="telefono" type="text" name="telefono" placeholder="Número de contacto" minlength="9" maxlength="15" required>
 					<input type="submit" class="button" value="Enviar" id="enviar">
 				</form>
 			</div>
@@ -113,15 +117,10 @@
 	</div>
 
 
-	<div id="modal-idioma" class="reveal-modal medium">
+	<div id="modal-contact" class="reveal-modal medium">
 		<div class="row">
 			<div class="large-12 columns center modal-title">
-				<h7>Quiero ver la página en / Vull veure la pagina en:</h7>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-12 columns modal-botones center">
-				<a href="../cas/" class="button" onclick="guardarIdioma('cas')">CASTELLANO</a><a href="../cat/" class="button" onclick="guardarIdioma('cat')">CATALÀ</a>
+				<h6>Gracias! Nos pondremos en contacto lo antes posible.</h6>
 			</div>
 		</div>
 
@@ -145,9 +144,40 @@
     	//manejamos el idioma
     	localStorage["mundoludic-idioma"] = "cas";
 
-    	$('#enviar').click(function(){
-    		console.log("enviar");
-    	});
+    	function check(input) {
+		  if (input.value != document.getElementById('email_addr').value) {
+		    input.setCustomValidity('The two email addresses must match.');
+		    console.log("no valid");
+		  } else {
+		    // input is valid -- reset the error message
+		    input.setCustomValidity('');
+		    console.log("valid");
+		  }
+		}
+
+		// Enviar formulario
+		$( "#contactForm" ).submit(function( event ) {
+		 
+		  // Stop form from submitting normally
+		  event.preventDefault();
+		 
+		  // Get some values from elements on the page:
+		  var $form = $( this ),
+		    nombre = $form.find( "input[name='nombre']" ).val(),
+		    telefono = $form.find( "input[name='telefono']" ).val(),
+		    url = $form.attr( "action" );
+		 
+		    console.log(nombre);
+		    console.log(telefono);
+
+		  // Send the data using post
+		  var posting = $.post( url, { nombre: "Mario", telefono: "2323434" } );
+		 
+		  // Put the results in a div
+		  posting.done(function( data ) {
+		    console.log(data);
+		  });
+		});
 
 	});
 

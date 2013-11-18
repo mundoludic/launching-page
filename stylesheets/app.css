@@ -7569,7 +7569,7 @@ body {
   text-align: center;
 }
 /* line 176, ../sass/_main.scss */
-.newsletter h7 {
+.newsletter h6 {
   padding: 20px 20px 0px 0px;
 }
 
@@ -7624,58 +7624,80 @@ body {
   color: #4d4d4d;
 }
 
-/* line 227, ../sass/_main.scss */
+/* line 226, ../sass/_main.scss */
+#contacto {
+  font-size: 0.95em;
+  margin-top: 50px;
+}
+/* line 229, ../sass/_main.scss */
+#contacto a {
+  color: #0175b2;
+}
+/* line 232, ../sass/_main.scss */
+#contacto a:hover {
+  color: #a4c3dc;
+}
+/* line 235, ../sass/_main.scss */
+#contacto p {
+  margin-top: 20px;
+}
+/* line 238, ../sass/_main.scss */
+#contacto form {
+  margin-bottom: 50px;
+}
+
+/* line 246, ../sass/_main.scss */
 .twitter {
   background: url("../images/icons/twitter.png");
 }
 
-/* line 231, ../sass/_main.scss */
+/* line 250, ../sass/_main.scss */
 .twitter:hover {
   background: url("../images/icons/twitter-over.png");
 }
 
-/* line 235, ../sass/_main.scss */
+/* line 254, ../sass/_main.scss */
 .facebook {
   background: url("../images/icons/facebook.png");
 }
 
-/* line 239, ../sass/_main.scss */
+/* line 258, ../sass/_main.scss */
 .facebook:hover {
   background: url("../images/icons/facebook-over.png");
 }
 
-/* line 243, ../sass/_main.scss */
+/* line 262, ../sass/_main.scss */
 .logo {
   background: url("../images/logo-white.png");
 }
 
-/* line 247, ../sass/_main.scss */
+/* line 266, ../sass/_main.scss */
 .logo:hover {
   background: url("../images/logo.png");
 }
 
-/* line 252, ../sass/_main.scss */
+/* line 271, ../sass/_main.scss */
 .twitter-foot {
   background: url("../images/icons/twitter-grey.png");
 }
 
-/* line 256, ../sass/_main.scss */
+/* line 275, ../sass/_main.scss */
 .twitter-foot:hover {
   background: url("../images/icons/twitter-grey-over.png");
 }
 
-/* line 260, ../sass/_main.scss */
+/* line 279, ../sass/_main.scss */
 .facebook-foot {
   background: url("../images/icons/facebook-grey.png");
   margin-right: 5px;
 }
 
-/* line 265, ../sass/_main.scss */
+/* line 284, ../sass/_main.scss */
 .facebook-foot:hover {
   background: url("../images/icons/facebook-grey-over.png");
 }
 
-/* line 269, ../sass/_main.scss */
+/* line 288, ../sass/_main.scss */
 .logo-foot {
   background: url("../images/logo.png");
 }

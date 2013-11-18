@@ -173,7 +173,7 @@ body{
 	background-color: $white;
 	// border-bottom:1px solid $grey;
 	text-align: center;
-	h7{
+	h6{
 		padding: 20px 20px 0px 0px;
 	}
 }
@@ -219,6 +219,25 @@ body{
 	padding-top: 20px;
 	font-size: 0.9em;
 	color: $dark-grey;
+}
+
+// Contacto
+
+#contacto{
+	font-size: 0.95em;
+	margin-top: 50px;
+	a{
+		color: $blue;
+	}
+	a:hover{
+		color: $light-blue;
+	}
+	p{
+		margin-top: 20px;
+	}
+	form{
+		margin-bottom: 50px;
+	}
 }
 
 // Botones
