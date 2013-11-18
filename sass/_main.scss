@@ -53,6 +53,12 @@ h4{
 	color: #111;
 }
 
+// MENU
+
+#menu{
+	border: 1px solid red;
+}
+
 // HEADER
 
 body{
@@ -203,6 +209,9 @@ body{
 	padding-top: 40px;
 	border-top:1px solid $grey;
 	background-color: $white;
+	h4{
+		color: $dark-grey;
+	}
 }
 
 .copy{

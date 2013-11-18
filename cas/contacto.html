@@ -18,6 +18,9 @@
 
   	<script src="../javascripts/vendor/custom.modernizr.js"></script>
 
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+
 </head>
 <body>
 
@@ -60,37 +63,9 @@
 				<h3 style="font-size:1.5em">Mueve el Mundo. Mundo Ludic.</h3>
 			</div>
 		</div>
-		<div class="larg-12 columns center social-nav">
-		<a href="https://www.facebook.com/pages/MUNDO-LUDIC/330633617068232" target="_blank"><img class="facebook" src="../images/icons/social-icon-empty.png"></a>
-				<a href="https://twitter.com/MundoLudic" target="_blank"><img class="twitter" src="../images/icons/social-icon-empty.png"></a>
-		</div>
-
-			<div class="larg-12 columns center launching">
-				<h3>En breve estaremos con vosotros, estamos trabajando con muchas ganas para daros un buen servicio.</h3>
-			</div>
 
 		<div class="row"></div>
 
-	</div>
-
-	<div class="newsletter">
-		<div class="row">
-  		<div class="large-12 large-centered columns">
- 
-			<div id="mc_embed_signup" class="row collapse">
-
-				<form action="http://mundoludic.us7.list-manage.com/subscribe/post?u=7f51d04fa6023efaada86c1dd&amp;id=e2c6c5ad8e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<div class="large-12 columns">
-					<h7>Si deseas recibir todas las novedades</h7>
-					<input type="submit" value="Subscríbete" name="subscribe" id="mc-embedded-subscribe" class="button">
-				</div>
-
-				</form>
-
-	      	</div>
-
-		</div>
-	</div>
 	</div>
 
 	<div class=" large-12 columns main">
@@ -98,47 +73,12 @@
 		<div class="row">
 
 			<div class="large-12 columns">
-				<h2>MUNDO LUDIC es un directorio web para la búsqueda y contratación de actividades de animación lúdicas, culturales y educativas.</h2>
-			</div>
-
-		</div>
-
-		<div class="row">
-
-			<div class="large-12 columns">
-				<h2>MUNDO LUDIC está creando una comunidad online donde los usuarios aportan sus opiniones, porque creemos en la web 100% colaborativa.</h2>
-			</div>
-
-		</div>
-
-		<div class="row">
-
-			<div class="large-12 columns">
-				<h2>MUNDO LUDIC es el punto de encuentro entre proveedores de actividades lúdicas, culturales y educativas y TÚ.</h2>
-			</div>
-
-		</div>
-
-		<div class="row">
-
-			<div class="large-8 large-centered columns carrusel">
-					<ul data-orbit>
-					  <li>
-					    <img src="../images/carrusel/carrusel1.jpg" />
-					  </li>
-					  <li>
-					    <img src="../images/carrusel/carrusel2.jpg" />
-					  </li>
-					  <li>
-					    <img src="../images/carrusel/carrusel3.jpg" />
-					  </li>
-					  <li>
-					    <img src="../images/carrusel/carrusel4.jpg" />
-					  </li>
-					  <li>
-					    <img src="../images/carrusel/carrusel5.jpg" />
-					  </li>
-					</ul>
+				<h7>Si quieres contactar con nosotros, envíanos por favor un correo a <a href="mailto:info@mundoludic.com">info@mundoludic.com</a>, y en breve te responderemos.</h7>
+				<p>Déjanos tu teléfono de contacto si quieres que te llamemos:</p>
+				<form>
+					<input id="telefono" type="text" placeholder="Número de contacto" minlength="9" maxlength="15" required>
+					<input type="submit" class="button" value="Enviar" id="enviar">
+				</form>
 			</div>
 
 		</div>
@@ -155,13 +95,6 @@
 			<div class="row">
 				<div class="large-12 columns center">
 					<h4 style="margin: 40px 0px 40px 0px;">Mueve el Mundo. Mundo Ludic.</h4>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="large-12 columns center">
-					<a href="" class="button">Contacto</a>
-					<br>
 				</div>
 			</div>
 
@@ -203,43 +136,6 @@
   </script>
   
   <script src="../javascripts/foundation/foundation.js"></script>
-	
-	<script src="../javascripts/foundation/foundation.orbit.js"></script>
-
-	
-  <script>
-
-  $(document).foundation('orbit', {
-	  animation: 'fade',
-	  timer_speed: 7000,
-	  pause_on_hover: false,
-	  resume_on_mouseout: false,
-	  animation_speed: 700,
-	  stack_on_small: false,
-	  navigation_arrows: true,
-	  slide_number: false,
-	  container_class: 'orbit-container',
-	  stack_on_small_class: 'orbit-stack-on-small',
-	  next_class: 'orbit-next',
-	  prev_class: 'orbit-prev',
-	  timer_container_class: 'orbit-timer',
-	  timer_paused_class: 'paused',
-	  timer_progress_class: 'orbit-progress',
-	  slides_container_class: 'orbit-slides-container',
-	  bullets_container_class: 'orbit-bullets',
-	  bullets_active_class: 'active',
-	  slide_number_class: 'orbit-slide-number',
-	  caption_class: 'orbit-caption',
-	  active_slide_class: 'active',
-	  orbit_transition_class: 'orbit-transitioning',
-	  bullets: true,
-	  timer: true,
-	  variable_height: false,
-	  before_slide_change: function(){},
-	  after_slide_change: function(){}
-});
-
-  </script>
 
   <script>
     $(document).foundation();
@@ -247,13 +143,11 @@
     $(document).ready(function() {
 
     	//manejamos el idioma
-
     	localStorage["mundoludic-idioma"] = "cas";
 
-    	//si venimos del index por primera vez le damos a elegir idioma
-    	// if(document.referrer=="http://localhost/sites/mundo-ludic/launching-page/"){
-    	// 	$('#modal-idioma').foundation('reveal', 'open');
-    	// }
+    	$('#enviar').click(function(){
+    		console.log("enviar");
+    	});
 
 	});
 

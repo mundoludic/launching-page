@@ -7357,21 +7357,26 @@ h4 {
 }
 
 /* line 58, ../sass/_main.scss */
+#menu {
+  border: 1px solid red;
+}
+
+/* line 64, ../sass/_main.scss */
 body {
   background-color: white;
   color: #4d4d4d;
 }
 
-/* line 63, ../sass/_main.scss */
+/* line 69, ../sass/_main.scss */
 #initial-content {
   margin-top: 50px;
 }
-/* line 65, ../sass/_main.scss */
+/* line 71, ../sass/_main.scss */
 #initial-content img {
   margin-bottom: 20px;
 }
 
-/* line 70, ../sass/_main.scss */
+/* line 76, ../sass/_main.scss */
 #header {
   background: url("../images/head-background.jpg");
   background-repeat: no-repeat;
@@ -7379,44 +7384,44 @@ body {
   background-color: #050c10;
 }
 
-/* line 77, ../sass/_main.scss */
+/* line 83, ../sass/_main.scss */
 .idioma {
   display: inline-block;
   margin-top: 10px;
 }
-/* line 80, ../sass/_main.scss */
+/* line 86, ../sass/_main.scss */
 .idioma ul {
   list-style-type: none;
   color: #dedede;
   letter-spacing: 0.05em;
   font-size: 0.9em;
 }
-/* line 85, ../sass/_main.scss */
+/* line 91, ../sass/_main.scss */
 .idioma ul li {
   display: inline;
 }
-/* line 88, ../sass/_main.scss */
+/* line 94, ../sass/_main.scss */
 .idioma ul a {
   color: white;
 }
 
-/* line 95, ../sass/_main.scss */
+/* line 101, ../sass/_main.scss */
 #modal-idioma h7 {
   color: #4d4d4d;
 }
 
-/* line 100, ../sass/_main.scss */
+/* line 106, ../sass/_main.scss */
 .modal-title {
   margin-top: 20px;
 }
 
-/* line 104, ../sass/_main.scss */
+/* line 110, ../sass/_main.scss */
 .modal-botones {
   margin: 20px 0px 10px 0px;
   padding: 0;
   border: 0px;
 }
-/* line 110, ../sass/_main.scss */
+/* line 116, ../sass/_main.scss */
 .modal-botones a {
   border-style: solid;
   border-width: 1px;
@@ -7448,27 +7453,27 @@ body {
   color: #333333;
 }
 
-/* line 116, ../sass/_main.scss */
+/* line 122, ../sass/_main.scss */
 .social-nav {
   margin-top: 10px;
   margin-right: 15px;
 }
-/* line 120, ../sass/_main.scss */
+/* line 126, ../sass/_main.scss */
 .social-nav img {
   background-repeat: no-repeat;
   margin-right: 5px;
 }
 
-/* line 126, ../sass/_main.scss */
+/* line 132, ../sass/_main.scss */
 .logo {
   margin-top: 10px;
 }
 
-/* line 130, ../sass/_main.scss */
+/* line 136, ../sass/_main.scss */
 .eslogan {
   margin-top: 15px;
 }
-/* line 132, ../sass/_main.scss */
+/* line 138, ../sass/_main.scss */
 .eslogan a {
   border-style: solid;
   border-width: 1px;
@@ -7500,11 +7505,11 @@ body {
   color: #333333;
 }
 
-/* line 138, ../sass/_main.scss */
+/* line 144, ../sass/_main.scss */
 .eslogan-foot {
   margin: 40px 0px;
 }
-/* line 140, ../sass/_main.scss */
+/* line 146, ../sass/_main.scss */
 .eslogan-foot a {
   padding-top: 20px;
   border-style: solid;
@@ -7538,17 +7543,17 @@ body {
 .eslogan-foot a:hover, .eslogan-foot a:focus {
   color: #333333;
 }
-/* line 147, ../sass/_main.scss */
+/* line 153, ../sass/_main.scss */
 .eslogan-foot a:hover {
   background-color: #dedede;
   border: 1 px solid #f0eff0;
 }
 
-/* line 153, ../sass/_main.scss */
+/* line 159, ../sass/_main.scss */
 .launching {
   padding: 0;
 }
-/* line 156, ../sass/_main.scss */
+/* line 162, ../sass/_main.scss */
 .launching h3 {
   color: #050c10;
   font-size: 1em;
@@ -7557,29 +7562,29 @@ body {
   opacity: 0.6;
 }
 
-/* line 165, ../sass/_main.scss */
+/* line 171, ../sass/_main.scss */
 .newsletter {
   padding-top: 25px;
   background-color: white;
   text-align: center;
 }
-/* line 170, ../sass/_main.scss */
+/* line 176, ../sass/_main.scss */
 .newsletter h7 {
   padding: 20px 20px 0px 0px;
 }
 
-/* line 175, ../sass/_main.scss */
+/* line 181, ../sass/_main.scss */
 .enviar {
   font-size: 0.8em;
   height: 35px;
 }
 
-/* line 180, ../sass/_main.scss */
+/* line 186, ../sass/_main.scss */
 .main {
   padding: 35px 0px 25px 0px;
   background-color: #f0eff0;
 }
-/* line 183, ../sass/_main.scss */
+/* line 189, ../sass/_main.scss */
 .main h2 {
   margin: 20px 0px;
   font-size: 1.1em;
@@ -7588,26 +7593,30 @@ body {
   color: #4d4d4d;
 }
 
-/* line 192, ../sass/_main.scss */
+/* line 198, ../sass/_main.scss */
 .carrusel {
   text-align: center;
   margin-bottom: 50px;
 }
-/* line 195, ../sass/_main.scss */
+/* line 201, ../sass/_main.scss */
 .carrusel .orbit-container {
   margin-top: 25px;
   background-color: #f0eff0;
 }
 
-/* line 201, ../sass/_main.scss */
+/* line 207, ../sass/_main.scss */
 .footer {
   margin-bottom: 20px;
   padding-top: 40px;
   border-top: 1px solid #dedede;
   background-color: white;
 }
+/* line 212, ../sass/_main.scss */
+.footer h4 {
+  color: #4d4d4d;
+}
 
-/* line 208, ../sass/_main.scss */
+/* line 217, ../sass/_main.scss */
 .copy {
   height: 40px;
   padding-top: 20px;
@@ -7615,58 +7624,58 @@ body {
   color: #4d4d4d;
 }
 
-/* line 218, ../sass/_main.scss */
+/* line 227, ../sass/_main.scss */
 .twitter {
   background: url("../images/icons/twitter.png");
 }
 
-/* line 222, ../sass/_main.scss */
+/* line 231, ../sass/_main.scss */
 .twitter:hover {
   background: url("../images/icons/twitter-over.png");
 }
 
-/* line 226, ../sass/_main.scss */
+/* line 235, ../sass/_main.scss */
 .facebook {
   background: url("../images/icons/facebook.png");
 }
 
-/* line 230, ../sass/_main.scss */
+/* line 239, ../sass/_main.scss */
 .facebook:hover {
   background: url("../images/icons/facebook-over.png");
 }
 
-/* line 234, ../sass/_main.scss */
+/* line 243, ../sass/_main.scss */
 .logo {
   background: url("../images/logo-white.png");
 }
 
-/* line 238, ../sass/_main.scss */
+/* line 247, ../sass/_main.scss */
 .logo:hover {
   background: url("../images/logo.png");
 }
 
-/* line 243, ../sass/_main.scss */
+/* line 252, ../sass/_main.scss */
 .twitter-foot {
   background: url("../images/icons/twitter-grey.png");
 }
 
-/* line 247, ../sass/_main.scss */
+/* line 256, ../sass/_main.scss */
 .twitter-foot:hover {
   background: url("../images/icons/twitter-grey-over.png");
 }
 
-/* line 251, ../sass/_main.scss */
+/* line 260, ../sass/_main.scss */
 .facebook-foot {
   background: url("../images/icons/facebook-grey.png");
   margin-right: 5px;
 }
 
-/* line 256, ../sass/_main.scss */
+/* line 265, ../sass/_main.scss */
 .facebook-foot:hover {
   background: url("../images/icons/facebook-grey-over.png");
 }
 
-/* line 260, ../sass/_main.scss */
+/* line 269, ../sass/_main.scss */
 .logo-foot {
   background: url("../images/logo.png");
 }
