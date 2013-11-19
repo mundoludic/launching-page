@@ -7646,58 +7646,75 @@ body {
   margin-bottom: 50px;
 }
 
-/* line 246, ../sass/_main.scss */
+/* line 243, ../sass/_main.scss */
+.panel {
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+/* line 248, ../sass/_main.scss */
+.panel p {
+  font-size: 0.8em;
+}
+
+/* line 251, ../sass/_main.scss */
+.panel h6 {
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+/* line 259, ../sass/_main.scss */
 .twitter {
   background: url("../images/icons/twitter.png");
 }
 
-/* line 250, ../sass/_main.scss */
+/* line 263, ../sass/_main.scss */
 .twitter:hover {
   background: url("../images/icons/twitter-over.png");
 }
 
-/* line 254, ../sass/_main.scss */
+/* line 267, ../sass/_main.scss */
 .facebook {
   background: url("../images/icons/facebook.png");
 }
 
-/* line 258, ../sass/_main.scss */
+/* line 271, ../sass/_main.scss */
 .facebook:hover {
   background: url("../images/icons/facebook-over.png");
 }
 
-/* line 262, ../sass/_main.scss */
+/* line 275, ../sass/_main.scss */
 .logo {
   background: url("../images/logo-white.png");
 }
 
-/* line 266, ../sass/_main.scss */
+/* line 279, ../sass/_main.scss */
 .logo:hover {
   background: url("../images/logo.png");
 }
 
-/* line 271, ../sass/_main.scss */
+/* line 284, ../sass/_main.scss */
 .twitter-foot {
   background: url("../images/icons/twitter-grey.png");
 }
 
-/* line 275, ../sass/_main.scss */
+/* line 288, ../sass/_main.scss */
 .twitter-foot:hover {
   background: url("../images/icons/twitter-grey-over.png");
 }
 
-/* line 279, ../sass/_main.scss */
+/* line 292, ../sass/_main.scss */
 .facebook-foot {
   background: url("../images/icons/facebook-grey.png");
   margin-right: 5px;
 }
 
-/* line 284, ../sass/_main.scss */
+/* line 297, ../sass/_main.scss */
 .facebook-foot:hover {
   background: url("../images/icons/facebook-grey-over.png");
 }
 
-/* line 288, ../sass/_main.scss */
+/* line 301, ../sass/_main.scss */
 .logo-foot {
   background: url("../images/logo.png");
 }

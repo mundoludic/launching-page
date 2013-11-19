@@ -3,15 +3,17 @@
 	// $postdata = file_get_contents("php://input");
 	// $request = json_decode($postdata);
 
-	// $nombre = $_GET["nombre"];
-	// $telefono = $_GET["telefono"];
+	$nombre = $_POST["nombre"];
+	$telefono = $_POST["telefono"];
 
-	$nombre = $request->nombre;
-	$telefono = $request->telefono;
+	echo $request;
+
+	// $nombre = $request->nombre;
+	// $telefono = $request->telefono;
 
 	// Enviamos un email con los datos de acceso
 
-	$para = 'marioip@gmail.com';
+	$para = 'soporte@mundoludic.com, info@mundoludic.com';
 	$titulo = 'Solicitud de contacto de Mundoludic';
 	$mensaje = "Datos de contacto: \n\nNombre: $nombre \nTeléfono: $telefono";
 	$cabeceras = 'From: soporte@mundoludic.com' . "\r\n" .
