@@ -51,6 +51,29 @@ audio:not([controls]) {
   display: none;
 }
 
+/**** HOJAS DE ESTILO SIN PROCESAR sass *****/
+
+#menu{
+  padding-left: 150px;
+}
+
+.nav{
+  margin-left: 70px;
+}
+
+.nav li{
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.nav li a{
+  color: white;
+}
+
+
+/**** FIN HOJAS DE ESTILO SIN PROCESAR sass *****/
+
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -7358,7 +7381,7 @@ h4 {
 
 /* line 58, ../sass/_main.scss */
 #menu {
-  border: 1px solid red;
+  
 }
 
 /* line 64, ../sass/_main.scss */
